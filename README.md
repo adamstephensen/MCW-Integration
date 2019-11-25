@@ -1,4 +1,4 @@
-# Containers and Azure Kubernetes Cloud Workshop 
+# Integration workshop
 
 Unlike other problems and solutions, integration is unique in that every scenario is different. But believe it or not, business’ varying in size face the same questions – “How do we build an enterprise integration ecosystem in a cost-effective, simple and resilient manner? How to we enable 1st and 3rd party teams to seamlessly integrate with our business?”. Thankfully, we can identify and architect certain patterns and practice to make this a smooth experience, delivering value in a very fast manner.
 
