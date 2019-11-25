@@ -20,6 +20,8 @@ Fluffy Ducks co. is a large, multinational firm with offices in Melbourne (head-
 # Integration Systems
 **Note: Row colour correlates to flow in diagram**
 
+![Integration diagram](integration-diagram.png "Integration diagram")
+
 ![Table of requirements](integration-table.PNG "Requirements")
 
 ## Technical requirements
@@ -35,7 +37,3 @@ Fluffy Ducks co. is a large, multinational firm with offices in Melbourne (head-
 * Azure SQL can be re-architected to Cosmos to reduce complexity and moving parts
 * Remember, business has appetite to redesign architecture and write/consume new services
 * External provider remains the same
-
-Note: The colours below correlate to a requirement in the above table
-
-![alt text](integration-diagram.png "Integration diagram")
