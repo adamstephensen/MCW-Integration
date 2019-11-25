@@ -1,64 +1,56 @@
----
-page_type: sample
-languages:
-- csharp
-products:
-- dotnet
-description: "Add 150 character max description"
-urlFragment: "update-this-to-unique-url-stub"
----
+# Containers and Azure Kubernetes Cloud Workshop 
 
-# Official Microsoft Sample
+Unlike other problems and solutions, integration is unique in that every scenario is different. But believe it or not, business’ varying in size face the same questions – “How do we build an enterprise integration ecosystem in a cost-effective, simple and resilient manner? How to we enable 1st and 3rd party teams to seamlessly integrate with our business?”. Thankfully, we can identify and architect certain patterns and practice to make this a smooth experience, delivering value in a very fast manner.
 
-<!-- 
-Guidelines on README format: https://review.docs.microsoft.com/help/onboard/admin/samples/concepts/readme-template?branch=master
+Please join us for a 1-day, heavily practical architecture and whiteboard design day including private consultation with Azure integration experts. You will gain a thorough understanding of how you can quickly use the best integration tools to solve your business challenges. 
 
-Guidance on onboarding samples to docs.microsoft.com/samples: https://review.docs.microsoft.com/help/onboard/admin/samples/process/onboarding?branch=master
+#### Workshop Information:  
 
-Taxonomies for products and languages: https://review.docs.microsoft.com/new-hope/information-architecture/metadata/taxonomies?branch=master
--->
+By the end of the day, attendees will have a thorough understanding of how to approach an integration design, as well as answered questions they have about their existing business.
 
-Give a short description for your sample here. What does it do and why is it important?
 
-## Contents
+#### Whiteboard scenarios
 
-Outline the file contents of the repository. It helps users navigate the codebase, build configuration and any related assets.
+The second whiteboard scenario will be designed by you and your teams; this means you get the opportunity to bring your current business requirements, issues, queries or architecture questions and get on-the-spot advice from an expert (as well as other attendees). This means you must have a think about this beforehand and bring these topics.
 
-| File/folder       | Description                                |
-|-------------------|--------------------------------------------|
-| `src`             | Sample source code.                        |
-| `.gitignore`      | Define what to ignore at commit time.      |
-| `CHANGELOG.md`    | List of changes to the sample.             |
-| `CONTRIBUTING.md` | Guidelines for contributing to the sample. |
-| `README.md`       | This README file.                          |
-| `LICENSE`         | The license for the sample.                |
+#### Who should attend:  
+This invitation is open to your application development/engineering/integration teams.
 
-## Prerequisites
+#### What to bring
+- A laptop  
+- Current business requirements or issues or questions around integration scenarios
 
-Outline the required components and tools that a user might need to have on their machine in order to run the sample. This can be anything from frameworks, SDKs, OS versions or IDE releases.
+**Please note: Workshop content presumes 200-300-level of architectural expertise of infrastructure and solutions design.** 
 
-## Setup
+**Microsoft Presenter:** ??
 
-Explain how to prepare the sample once the user clones or downloads the repository. The section should outline every step necessary to install dependencies and set up any settings (for example, API keys and output folders).
+Spots are strictly limited. Please reply to adam.stephensen@microsoft.com to confirm places for your team. 
 
-## Runnning the sample
+We look forward to seeing you at the event!
 
-Outline step-by-step instructions to execute the sample and see its output. Include steps for executing the sample from the IDE, starting specific services in the Azure portal or anything related to the overall launch of the code.
+#### AGENDA:
+08:30 AM	Registration  
+09:00 AM	Start session  
+10:15 AM	Morning Tea  
+12:30 PM	Lunch  
+02:30 PM	Afternoon Tea  
+04:00 PM	End of session  
+ 
 
-## Key concepts
+## Workshop Topics
 
-Provide users with more context on the tools and services used in the sample. Explain some of the code that is being used and how services interact with each other.
+Integration 101 
+- Patterns and practice 
+- Technologies and how Azure fits in
 
-## Contributing
+Whiteboard session #1
+- Review of the case study
+- Attendees design solution
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+Whiteboard session #2 
+- Review of scenario
+- Attendees design case-study
+- Attendees design solution
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+Next Steps
+- Putting the puzzle pieces together
