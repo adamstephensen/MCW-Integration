@@ -36,4 +36,6 @@ Fluffy Ducks co. is a large, multinational firm with offices in Melbourne (head-
 * Remember, business has appetite to redesign architecture and write/consume new services
 * External provider remains the same
 
+Note: The colours below correlate to a requirement in the above table
+
 ![alt text](integration-diagram.png "Integration diagram")
