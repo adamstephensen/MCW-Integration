@@ -56,7 +56,7 @@ The pub-sub pattern is the ability for a given system to announce or broadcast a
 Compare this to having a single channel per receiving application; this doesn't scale at all where instead you could have a single channel all receiving applications subscribe to.
 
 ### Example
-![Pub sub](visio/pub-sub.PNG "Pub sub")
+![Pub sub](visio/pub-sub.png "Pub sub")
 
 ### When to use this pattern
 When you have an application which uses messaging to announce events, possibly to more than 1 receiver. It is also a pattern which can be used for debugging, as you can replay/eavesdrop on particular events or messages.
