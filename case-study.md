@@ -20,9 +20,9 @@ Fluffy Ducks co. is a large, multinational firm with offices in Melbourne (head-
 # Integration Systems
 **Note: Row colour correlates to flow in diagram**
 
-![Integration diagram](integration-diagram.png "Integration diagram")
+![Integration diagram](visio/integration-diagram.png "Integration diagram")
 
-![Table of requirements](integration-table.PNG "Requirements")
+![Table of requirements](visio/integration-table.PNG "Requirements")
 
 ## Technical requirements
 * Must replace BizTalk with a solution
