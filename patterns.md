@@ -4,11 +4,32 @@ In this file, you will find an example of some integration patterns which are co
 
 https://www.enterpriseintegrationpatterns.com/patterns/messaging/
 
+* Claim check
 * Pipes and filters
 * Message bus
 * Message router
 * Publisher-Subscriber (pub-sub)
 * Content Enricher
+
+## Claim check
+### What is it?
+The name "claim check" originates from a coat check at a show or movie; you leave your coat at the desk, and get a ticket. Upon returning the ticket, you receive your coat.
+
+The claim check pattern follows a similar principle. Instead of putting an entire message onto a queue or topic, you put the message somewhere else (such as Azure blob storage), and put a reference to the body on the queue.
+
+This pattern also helps to reduce costs, as storage is usually cheaper than resource units used by the messaging platform.
+
+### Examples
+![Claim check](visio/claim-check.jpg "claim check")
+
+### When to use this pattern
+In most integration scenarios, the message will be of variable size. This means there will be outlier (or more) cases where the message is to big for the supported queue. This is especially true when more inefficient encoding standards such as XML are used, or when the message body can be a file such as an image or PDF.
+
+As above, an example would be using Azure storage for both queue and blob. Azure storage queue has a maximum message size of 64kb; this size resitrictions might force you to use something else such as Azure service bus.
+
+However, if you put the message body into blob storage, and your message onto the queue contains information about the body (such as a reference to the blob amongst other metadata items), you get around this size issue as your messages are always small.
+
+This enables you to handle other files as your message body, such as a PDF or an image, both of which would usually be much to large for a queue
 
 ## Pipes and filters
 ### What is it?
