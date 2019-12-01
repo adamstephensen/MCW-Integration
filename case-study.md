@@ -1,5 +1,5 @@
 # Overview
-Fluffy Ducks co. is a large, multinational firm with offices in Melbourne (head-office, datacentre), Helsinki, and Ushuaia. The corporation has used biztalk of varying versions for the last 10 years to integrate on-prem -> on-prem and on-prem -> Azure. For data integration between disparate systems, they’ve relied on manual SSIS package execution on local DBA laptops. Fluffy Ducks co. have encountered multiple issues with both application and data integration and has convinced the business to invest in a modernization of their integration platform with a cloud-first approach where possible. 
+Fluffy Ducks co. is a large, multinational firm with offices in Melbourne (head-office, datacentre), Helsinki, and Ushuaia. The corporation has used biztalk of varying versions for the last 10 years to integrate on-prem -> on-prem and on-prem -> Azure. For data integration between disparate systems, they’ve relied on manual SSIS package execution on local DBA laptops. Fluffy Ducks co. have encountered multiple issues with both application and data integration and have convinced the business to invest in a modernization of their integration platform with a cloud-first approach where possible. 
 
 # Current status
 * BizTalk is end-of-life
@@ -8,6 +8,7 @@ Fluffy Ducks co. is a large, multinational firm with offices in Melbourne (head-
 * The number of point-to-point integrations has grown substantially over time, increasing the administrative overhead exponentially. All of which differ in spec and API contract.
 * When a point of integration is updated, this is an atomic change with no ability to rollback
 * When an event happens in Dynamics, there is no automated way to check this
+* Messaging to/from payroll into the cloud have a variable size limit; from kilobytes to multiple megabytes for things like PDF exchange
 * Most payroll functionality migrating to d365, however some legacy endpoints and data will remain on-prem
 * Business has appetite for innovation and redesign of current architecture
 
@@ -28,7 +29,8 @@ Fluffy Ducks co. is a large, multinational firm with offices in Melbourne (head-
 * Must replace BizTalk with a solution
 * Must ensure DBAs don’t have to run SSIS packages locally
 * Payroll system has ability to call out (HTTP, webhook, etc.), provides a SOAP interface to call in
-* Payroll system VM needs to migrate to Azure
+* Payroll system VM needs to migrate to Azure, with seperate back-end API and front-end
+* Employee web system currently in Azure needs to be modernized to a seperate back-end API and front-end
 * On-prem SQL needs to be replaced with cloud solution (such as Cosmos)
 
 ## Assumptions
